@@ -1,11 +1,16 @@
 /* Desktop */
-@media (min-width:960px) { 
+@media (min-width:768px){ 
 
+
+    #container {
+        width: 960px;
+        margin: auto;
+    }
 #header-div { 
     width: 960px;
     height: 100px;
     border: 1px solid rgb(5, 5, 5) ;
-    background-color: rgb(161, 158, 158);
+    background-color: rgb(211, 209, 209);
     text-align: center;
     line-height: 75px;
 }
@@ -16,7 +21,7 @@
     border: 1px solid rgb(5, 5, 5) ;
     text-align: center;
     line-height: 600px;
-    background-color: rgb(161, 158, 158);
+    background-color: rgb(211, 209, 209);
 }
 
 #mainc-div {
@@ -25,8 +30,10 @@
     border: 1px solid rgb(5, 5, 5) ;
     text-align: center;
     line-height: 200px;
-    background-color: rgb(161, 158, 158);
-    float: right;
+    background-color: rgb(211, 209, 209);
+    position: absolute;
+    left: 200px;
+    top: 100px;
 }
 #maind-div {
     width: 380px;
@@ -34,7 +41,10 @@
     border: 1px solid rgb(5, 5, 5) ;
     text-align: center;
     line-height: 200px;
-    background-color: rgb(161, 158, 158);
+    background-color: rgb(211, 209, 209);
+    position: absolute;
+    left: 580px;
+    top: 100px;
 }
 
 #maine-div {
@@ -43,8 +53,10 @@
     border: 1px solid rgb(5, 5, 5) ;
     text-align: center;
     line-height: 250px;
-    background-color: rgb(161, 158, 158);
-    
+    background-color: rgb(211, 209, 209);  
+    position: absolute;
+    left: 390px;
+    top: 300px;    
 }
 #mainf-div {
     width: 190px;
@@ -52,8 +64,10 @@
     border: 1px solid rgb(5, 5, 5) ;
     text-align: center;
     line-height: 250px;
-    background-color: rgb(161, 158, 158);
-    
+    background-color: rgb(211, 209, 209);  
+    position: absolute;
+    left: 200px;
+    top: 300px;  
 }
 #maing-div {
     width: 190px;
@@ -61,8 +75,10 @@
     border: 1px solid rgb(5, 5, 5) ;
     text-align: center;
     line-height: 250px;
-    background-color: rgb(161, 158, 158);
-    
+    background-color: rgb(211, 209, 209);  
+    position: absolute;
+    left: 770px;
+    top: 300px;    
 }
 #mainh-div {
     width: 190px;
@@ -70,8 +86,10 @@
     border: 1px solid rgb(5, 5, 5) ;
     text-align: center;
     line-height: 250px;
-    background-color: rgb(161, 158, 158);
-    
+    background-color: rgb(211, 209, 209);   
+    position: absolute;
+    left: 580px;
+    top: 300px;    
 }
 #maini-div {
     width: 760px;
@@ -79,95 +97,100 @@
     border: 1px solid rgb(5, 5, 5) ;
     text-align: center;
     line-height: 150px;
-    background-color: rgb(161, 158, 158);
-    
+    background-color: rgb(211, 209, 209);  
+    position: absolute;
+    left: 200px;
+    top: 550px;  
 }
 }
 
 /* Mobile */
 
-/* @media (min-width:480px) {
+ @media (max-width:767px) {
+
+     #container {
+        width: 480px;
+        height: 1055px;
+        /* border: 1px solid rgb(5, 5, 5) ; */
+        margin: auto;
+    }
     #header-div { 
         width: 480px;
         height: 75px;
         border: 1px solid rgb(5, 5, 5) ;
-        background-color: rgb(161, 158, 158);
+        background-color: rgb(204, 124, 124);
         text-align: center;
-        line-height: 100px;
+        line-height: 75px;
     }
     
     #mainb-div {
-        width: 200px;
-        height: 600px;
-        border: 1px solid rgb(5, 5, 5) ;
-        text-align: center;
-        line-height: 600px;
-        background-color: rgb(161, 158, 158);
-    }
-    
-    #mainc-div {
-        width: 380px;
-        height: 200px;
-        border: 1px solid rgb(5, 5, 5) ;
-        text-align: center;
-        line-height: 200px;
-        background-color: rgb(161, 158, 158);
-        float: right;
-    }
-    #maind-div {
-        width: 380px;
-        height: 200px;
-        border: 1px solid rgb(5, 5, 5) ;
-        text-align: center;
-        line-height: 200px;
-        background-color: rgb(161, 158, 158);
-    }
-    
-    #maine-div {
-        width: 190px;
-        height: 250px;
-        border: 1px solid rgb(5, 5, 5) ;
-        text-align: center;
-        line-height: 200px;
-        background-color: rgb(161, 158, 158);
-        
-    }
-    #mainf-div {
-        width: 190px;
-        height: 250px;
-        border: 1px solid rgb(5, 5, 5) ;
-        text-align: center;
-        line-height: 200px;
-        background-color: rgb(161, 158, 158);
-        
-    }
-    #maing-div {
-        width: 190px;
-        height: 250px;
-        border: 1px solid rgb(5, 5, 5) ;
-        text-align: center;
-        line-height: 200px;
-        background-color: rgb(161, 158, 158);
-        
-    }
-    #mainh-div {
-        width: 190px;
-        height: 250px;
-        border: 1px solid rgb(5, 5, 5) ;
-        text-align: center;
-        line-height: 200px;
-        background-color: rgb(161, 158, 158);
-        
-    }
-    #maini-div {
-        width: 760px;
+        width: 480px;
         height: 150px;
         border: 1px solid rgb(5, 5, 5) ;
         text-align: center;
-        line-height: 200px;
-        background-color: rgb(161, 158, 158);
-        
+        line-height: 150px;
+        background-color: rgb(114, 114, 219);
+        }
+    
+    #mainc-div {
+        width: 480px;
+        height: 125px;
+        border: 1px solid rgb(5, 5, 5) ;
+        text-align: center;
+        line-height: 125px;
+        background-color: rgb(111, 228, 111);
     }
-} */
+    #maind-div {
+        width: 480px;
+        height: 125px;
+        border: 1px solid rgb(5, 5, 5) ;
+        text-align: center;
+        line-height: 125px;
+        background-color: rgb(228, 122, 228);
+    }
+    
+    #maine-div {
+        width: 240px;
+        height: 250px;
+        border: 1px solid rgb(5, 5, 5) ;
+        text-align: center;
+        line-height: 250px;
+        background-color: plum;  
+        float: right; 
+    }
+    #mainf-div {
+        width: 240px;
+        height: 250px;
+        border: 1px solid rgb(5, 5, 5) ;
+        text-align: center;
+        line-height: 250px;
+        background-color: skyblue;  
+    }
+    #maing-div {
+        width: 240px;
+        height: 250px;
+        border: 1px solid rgb(5, 5, 5) ;
+        text-align: center;
+        line-height: 250px;
+        background-color: darkorange;  
+        float: right;      
+    }
+    #mainh-div {
+        width: 240px;
+        height: 250px;
+        border: 1px solid rgb(5, 5, 5) ;
+        text-align: center;
+        line-height: 250px;
+        background-color: yellowgreen;        
+    }
+    #maini-div {
+        width: 480px;
+        height: 80px;
+        border: 1px solid rgb(5, 5, 5) ;
+        text-align: center;
+        line-height: 80px;
+        background-color:teal;        
+    }
+}  
 
 
