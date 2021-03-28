@@ -1,0 +1,173 @@
+/* Desktop */
+@media (min-width:960px) { 
+
+#header-div { 
+    width: 960px;
+    height: 100px;
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color: rgb(161, 158, 158);
+    text-align: center;
+    line-height: 75px;
+}
+
+#mainb-div {
+    width: 200px;
+    height: 600px;
+    border: 1px solid rgb(5, 5, 5) ;
+    text-align: center;
+    line-height: 600px;
+    background-color: rgb(161, 158, 158);
+}
+
+#mainc-div {
+    width: 380px;
+    height: 200px;
+    border: 1px solid rgb(5, 5, 5) ;
+    text-align: center;
+    line-height: 200px;
+    background-color: rgb(161, 158, 158);
+    float: right;
+}
+#maind-div {
+    width: 380px;
+    height: 200px;
+    border: 1px solid rgb(5, 5, 5) ;
+    text-align: center;
+    line-height: 200px;
+    background-color: rgb(161, 158, 158);
+}
+
+#maine-div {
+    width: 190px;
+    height: 250px;
+    border: 1px solid rgb(5, 5, 5) ;
+    text-align: center;
+    line-height: 250px;
+    background-color: rgb(161, 158, 158);
+    
+}
+#mainf-div {
+    width: 190px;
+    height: 250px;
+    border: 1px solid rgb(5, 5, 5) ;
+    text-align: center;
+    line-height: 250px;
+    background-color: rgb(161, 158, 158);
+    
+}
+#maing-div {
+    width: 190px;
+    height: 250px;
+    border: 1px solid rgb(5, 5, 5) ;
+    text-align: center;
+    line-height: 250px;
+    background-color: rgb(161, 158, 158);
+    
+}
+#mainh-div {
+    width: 190px;
+    height: 250px;
+    border: 1px solid rgb(5, 5, 5) ;
+    text-align: center;
+    line-height: 250px;
+    background-color: rgb(161, 158, 158);
+    
+}
+#maini-div {
+    width: 760px;
+    height: 150px;
+    border: 1px solid rgb(5, 5, 5) ;
+    text-align: center;
+    line-height: 150px;
+    background-color: rgb(161, 158, 158);
+    
+}
+}
+
+/* Mobile */
+
+/* @media (min-width:480px) {
+    #header-div { 
+        width: 480px;
+        height: 75px;
+        border: 1px solid rgb(5, 5, 5) ;
+        background-color: rgb(161, 158, 158);
+        text-align: center;
+        line-height: 100px;
+    }
+    
+    #mainb-div {
+        width: 200px;
+        height: 600px;
+        border: 1px solid rgb(5, 5, 5) ;
+        text-align: center;
+        line-height: 600px;
+        background-color: rgb(161, 158, 158);
+    }
+    
+    #mainc-div {
+        width: 380px;
+        height: 200px;
+        border: 1px solid rgb(5, 5, 5) ;
+        text-align: center;
+        line-height: 200px;
+        background-color: rgb(161, 158, 158);
+        float: right;
+    }
+    #maind-div {
+        width: 380px;
+        height: 200px;
+        border: 1px solid rgb(5, 5, 5) ;
+        text-align: center;
+        line-height: 200px;
+        background-color: rgb(161, 158, 158);
+    }
+    
+    #maine-div {
+        width: 190px;
+        height: 250px;
+        border: 1px solid rgb(5, 5, 5) ;
+        text-align: center;
+        line-height: 200px;
+        background-color: rgb(161, 158, 158);
+        
+    }
+    #mainf-div {
+        width: 190px;
+        height: 250px;
+        border: 1px solid rgb(5, 5, 5) ;
+        text-align: center;
+        line-height: 200px;
+        background-color: rgb(161, 158, 158);
+        
+    }
+    #maing-div {
+        width: 190px;
+        height: 250px;
+        border: 1px solid rgb(5, 5, 5) ;
+        text-align: center;
+        line-height: 200px;
+        background-color: rgb(161, 158, 158);
+        
+    }
+    #mainh-div {
+        width: 190px;
+        height: 250px;
+        border: 1px solid rgb(5, 5, 5) ;
+        text-align: center;
+        line-height: 200px;
+        background-color: rgb(161, 158, 158);
+        
+    }
+    #maini-div {
+        width: 760px;
+        height: 150px;
+        border: 1px solid rgb(5, 5, 5) ;
+        text-align: center;
+        line-height: 200px;
+        background-color: rgb(161, 158, 158);
+        
+    }
+} */
+
+
