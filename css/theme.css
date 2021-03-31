@@ -1,0 +1,104 @@
+/* Desktop */
+
+#header-div {
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color: rgb(211, 209, 209);
+}
+
+#mainb-div {
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color: rgb(211, 209, 209);
+
+}
+
+#mainc-div {
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color: rgb(211, 209, 209);
+
+}
+
+#maind-div {
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color: rgb(211, 209, 209);
+}
+
+#maine-div {
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color: rgb(211, 209, 209);
+}
+
+#mainf-div {
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color: rgb(211, 209, 209);  
+
+}
+
+#maing-div  {
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color: rgb(211, 209, 209);  
+
+}
+
+#mainh-div {
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color: rgb(211, 209, 209);   
+
+}
+
+#maini-div {
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color: rgb(211, 209, 209);
+}
+
+/* Mobile */
+
+#header-div {
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color: rgb(204, 124, 124);
+}
+
+#mainb-div {
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color: rgb(114, 114, 219);
+
+}
+
+#mainc-div {
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color: rgb(111, 228, 111);
+
+}
+
+#maind-div {
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color: rgb(228, 122, 228);
+}
+
+#maine-div {
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color: plum;  
+}
+
+#mainf-div {
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color: skyblue;  
+
+}
+
+#maing-div  {
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color: darkorange;  
+
+}
+
+#mainh-div {
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color: yellowgreen;        
+
+}
+
+#maini-div {
+    border: 1px solid rgb(5, 5, 5) ;
+    background-color:teal;        
+}
+
