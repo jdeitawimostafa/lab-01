@@ -1,9 +1,26 @@
-#maine-div {
-    float: right; 
-
+@media (max-width:767px) {
+#ef {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-#maing-div {
-    float: right;      
+#gh {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+}
 
+#container {
+    margin: auto;
+}
+
+#cd {
+    margin-left: 200px;
+}
+
+#efgh {
+    margin-left: 200px;
+}
+#maini-div {
+    margin-left: 200px;
 }

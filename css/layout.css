@@ -2,17 +2,14 @@
 @media (min-width:768px){ 
 
     body {
-        width: 100%;
-        /* margin: auto; */
+        width: 960px;
+        margin: auto;
     }
 
 
     #container {
-        width: 100%;
-        margin: auto;
-        position: absolute;
-        left:200px;
-
+        width: 960px;
+        height: 700px;
     }
 #header-div { 
     width: 960px;
@@ -31,67 +28,71 @@
 #mainc-div {
     width: 380px;
     height: 200px;
-    
     text-align: center;
     line-height: 200px;
-    position: absolute;
-    left: 200px;
-    top: 100px;
 }
 #maind-div {
     width: 380px;
     height: 200px;
     text-align: center;
     line-height: 200px;
-    position: absolute;
-    left: 580px;
-    top: 100px;
 }
 
+#cd {
+    width: 760px;
+    height: 200px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -600px;
+}
 #maine-div {
     width: 190px;
     height: 250px;
     text-align: center;
     line-height: 250px;  
-    position: absolute;
-    left: 390px;
-    top: 300px;    
 }
 #mainf-div {
     width: 190px;
     height: 250px;
     text-align: center;
     line-height: 250px;
-    position: absolute;
-    left: 200px;
-    top: 300px;  
+}
+
+#ef {
+    width: 380px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#gh {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 #maing-div {
     width: 190px;
     height: 250px;
     text-align: center;
     line-height: 250px;
-    position: absolute;
-    left: 770px;
-    top: 300px;    
 }
 #mainh-div {
     width: 190px;
     height: 250px;
     text-align: center;
     line-height: 250px;
-    position: absolute;
-    left: 580px;
-    top: 300px;    
 }
+
+#efgh {
+    width: 760px;
+    height: 250px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 #maini-div {
     width: 760px;
     height: 150px;
     text-align: center;
     line-height: 150px;  
-    position: absolute;
-    left: 200px;
-    top: 550px;  
 }
 }
 
@@ -106,7 +107,6 @@
      #container {
         width: 480px;
         height: 1055px;
-        /* border: 1px solid rgb(5, 5, 5) ; */
         margin: auto;
     }
     #header-div { 
