@@ -1,5 +1,5 @@
 /* Desktop */
-@media (min-width:768px){ 
+@media (min-width:960px){ 
 
     body {
         width: 960px;
@@ -95,20 +95,88 @@
     line-height: 150px;  
 }
 }
+/* Tablet */
+@media (min-width:768px) and (max-width:959px) {
+
+    body {
+        width: 960px;
+    }
+
+     #container {
+        width: 480px;
+        height: 1055px;
+  }
+    #header-div { 
+        width: 480px;
+        height: 75px;
+        text-align: center;
+        line-height: 75px;
+    }
+    
+    #mainb-div {
+        width: 480px;
+        height: 150px;
+        text-align: center;
+        line-height: 150px;
+        }
+    
+    #mainc-div {
+        width: 480px;
+        height: 125px;
+        text-align: center;
+        line-height: 125px;
+    }
+    #maind-div {
+        width: 480px;
+        height: 125px;
+        text-align: center;
+        line-height: 125px;
+    }
+    
+    #maine-div {
+        width: 240px;
+        height: 250px;
+        text-align: center;
+        line-height: 250px;
+    }
+    #mainf-div {
+        width: 240px;
+        height: 250px;
+        text-align: center;
+        line-height: 250px;
+    }
+    #maing-div {
+        width: 240px;
+        height: 250px;
+        text-align: center;
+        line-height: 250px;
+    }
+    #mainh-div {
+        width: 240px;
+        height: 250px;
+        text-align: center;
+        line-height: 250px;
+    }
+    #maini-div {
+        width: 480px;
+        height: 80px;
+        text-align: center;
+        line-height: 80px;
+    }
+}  
 
 /* Mobile */
 
  @media (max-width:767px) {
 
     body {
-        width: 480px;
+        width: 767px;
     }
 
      #container {
         width: 480px;
         height: 1055px;
-        margin: auto;
-    }
+  }
     #header-div { 
         width: 480px;
         height: 75px;

@@ -1,3 +1,4 @@
+/* Mobile */
 @media (max-width:767px) {
 #ef {
     display: grid;
@@ -8,12 +9,32 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-}
 
-#container {
+#container {  
     margin: auto;
 }
+}
 
+/*tablet  */
+@media (min-width:768px) and (max-width:959px) {
+    #ef {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #gh {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #container {  
+        /* margin-right: 300px;   */
+        margin: auto;
+    }
+    }
+
+/* Desktop */
+@media (min-width:960px) {
 #cd {
     margin-left: 200px;
 }
@@ -24,3 +45,5 @@
 #maini-div {
     margin-left: 200px;
 }
+}
+

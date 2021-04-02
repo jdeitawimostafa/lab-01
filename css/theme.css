@@ -1,57 +1,51 @@
 /* Desktop */
-
+@media (min-width:960px) {
 #header-div {
     border: 1px solid rgb(5, 5, 5) ;
-    background-color: rgb(211, 209, 209);
+    background-color: red;
 }
 
 #mainb-div {
     border: 1px solid rgb(5, 5, 5) ;
-    background-color: rgb(211, 209, 209);
-
+background-color: rosybrown;
 }
 
 #mainc-div {
     border: 1px solid rgb(5, 5, 5) ;
-    background-color: rgb(211, 209, 209);
-
+background-color: burlywood;
 }
 
 #maind-div {
     border: 1px solid rgb(5, 5, 5) ;
-    background-color: rgb(211, 209, 209);
-}
+background-color: darkblue;}
 
 #maine-div {
     border: 1px solid rgb(5, 5, 5) ;
-    background-color: rgb(211, 209, 209);
-}
+background-color: darkgreen;}
 
 #mainf-div {
     border: 1px solid rgb(5, 5, 5) ;
-    background-color: rgb(211, 209, 209);  
-
+background-color: gold;
 }
 
 #maing-div  {
     border: 1px solid rgb(5, 5, 5) ;
-    background-color: rgb(211, 209, 209);  
-
+background-color: magenta;
 }
 
 #mainh-div {
     border: 1px solid rgb(5, 5, 5) ;
-    background-color: rgb(211, 209, 209);   
-
+background-color: sienna;
 }
 
 #maini-div {
     border: 1px solid rgb(5, 5, 5) ;
-    background-color: rgb(211, 209, 209);
+background-color: yellowgreen;
+}
 }
 
 /* Mobile */
-
+@media (max-width:767px) {
 #header-div {
     border: 1px solid rgb(5, 5, 5) ;
     background-color: rgb(204, 124, 124);
@@ -101,4 +95,57 @@
     border: 1px solid rgb(5, 5, 5) ;
     background-color:teal;        
 }
+}
+
+/* Tblet */
+@media (min-width:768px) and (max-width:959px) {
+
+    body {
+        width: 960px;
+    }
+
+     #container {
+        width: 480px;
+        height: 1055px;
+  }
+    #header-div { 
+        border: 1px solid rgb(5, 5, 5) ;
+       background-color: paleturquoise;
+    }
+    
+    #mainb-div {
+        border: 1px solid rgb(5, 5, 5) ;
+      background-color: hotpink;
+        }
+    
+    #mainc-div {
+        border: 1px solid rgb(5, 5, 5) ;
+      background-color: grey;
+    }
+    #maind-div {
+        border: 1px solid rgb(5, 5, 5) ;
+     background-color: firebrick;
+    }
+    
+    #maine-div {
+        border: 1px solid rgb(5, 5, 5) ;
+     background-color: dodgerblue;
+    }
+    #mainf-div {
+        border: 1px solid rgb(5, 5, 5) ;
+       background-color: darkslateblue;
+    }
+    #maing-div {
+        border: 1px solid rgb(5, 5, 5) ;
+      background-color: chocolate;
+    }
+    #mainh-div {
+        border: 1px solid rgb(5, 5, 5) ;
+        background-color: brown;
+    }
+    #maini-div {
+        border: 1px solid rgb(5, 5, 5) ;
+      background-color: blueviolet;
+    }
+}  
 
